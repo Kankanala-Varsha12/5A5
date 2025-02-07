@@ -1,0 +1,42 @@
+<html>
+<head>
+<title> registration form </title>
+</head>
+<style>
+    body {
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4SL2T2lXOnsA4a1NEx20vi1J0kXUo0MgFcg&s');
+      background-size: cover;  /* This ensures the image covers the entire screen */
+      background-position: center; /* Centers the image */
+      height: 100vh;  /* Makes sure the body takes up the full viewport height */
+      margin: 0;  /* Removes default margin */
+    }
+</style>
+<h1> EVENT REGISTRATION FORM</h1>
+First name <input type = text><br><br>
+Last name <input type = text><br><br>
+Roll number <input type = text><br><br>
+<label for="phone">Contact</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required /><br><br>
+<label = gender>Gender</label>
+<select id="gender">
+<option value=male>Male</option>
+<option value=female>Female</option>
+<option value=other>Other</option>
+</select><br><br>
+<label = branch>Branch</label>
+<select id="branch">
+<option value=CSE>CSE</option>
+<option value=CSM>CSM</option>
+<option value=CSB>CSB</option>
+<option value=EEE>EEE</option>
+<option value=ECE>ECE</option>
+</select><br><br>
+<label = year>Year</label>
+<select id="year">
+<option value=I>I</option>
+<option value=II>II</option>
+<option value=III>III</option>
+</select><br><br>
+<button> Submit </button>
+</body>
+</html>
