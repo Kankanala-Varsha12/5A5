@@ -11,12 +11,17 @@
       margin: 0;  /* Removes default margin */
     }
 </style>
+<center>
 <h1> EVENT REGISTRATION FORM</h1>
 First name <input type = text><br><br>
 Last name <input type = text><br><br>
 Roll number <input type = text><br><br>
-<label for="phone">Contact</label>
-<input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required /><br><br>
+<label = course>Course</label>
+<select id="course">
+<option value=btech>b-tech</option>
+<option value=mtech>m-tech</option>
+<option value=MBA>MBA</option>
+</select><br><br>
 <label = gender>Gender</label>
 <select id="gender">
 <option value=male>Male</option>
@@ -37,6 +42,14 @@ Roll number <input type = text><br><br>
 <option value=II>II</option>
 <option value=III>III</option>
 </select><br><br>
+<h4>EVENTS INTERESTED IN PARTICIPATION</H4>
+<input type=checkbox>dance</checkbox>
+<input type=checkbox>theatre</checkbox>
+<input type=checkbox>music</checkbox>
+<input type=checkbox>singing</checkbox>
+<input type=checkbox>standup comedy</checkbox><br><br>
 <button> Submit </button>
+<button> Reset </button>
+</center>
 </body>
 </html>
